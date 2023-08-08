@@ -36,19 +36,10 @@
 
                 lower_layer {
                         bindings = <
-		    &kp AT	&kp W	   &kp E		  &kp R			&kp T				   &kp FSLH		&kp N7		&kp N8		&kp N9	&kp EQUAL
-		  &kp AUML	&kp S	   &kp D		  &kp F			&kp G				   &kp BSLS		&kp N4		&kp N5		&kp N6	&kp QUOT
-		&kp LSHIFT	&kp Z	   &kp C		  &kp V			&kp B				   &kp N0		  &kp N1		&kp N2		&kp N3	&kp PLUS
-						&lm LCTRL ESC	&lm RSE TAB	 &lm LALT SPACE			&lm WIN BSP	 &lm LWR DEL  &lm RET MEDIA
-	 //,-----------------------------------------------------------------.			,-----------------------------------------------------------------.
-     // &bt BT_CLR   &kp AT    &kp F11    &kp EURO   &kp LBKT   &kp RBKT  			  &kp FSLH    &kp N7     &kp N8     &kp N9   &kp EQUAL   &kp BSPC
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
- 	//	 &kp TAB    &kp QUOT   &kp MINS    &kp F5    &kp LPAR   &kp RPAR  			  &kp BSLS    &kp N4     &kp N5     &kp N6   &kp COMMA   &kp DEL
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
-     // &kp LSHFT   &kp F12     &kp F2     &kp F3    &kp LBRC   &kp RBRC  			   &kp N0     &kp N1     &kp N2     &kp N3   &kp MINUS  &kp trans
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
-    //  &kp LCTRL   &kp LGUI   &kp LALT  &kp LCTRL   &mo _RSE  &kp SPACE  			  &mo _LOW   &kp RET    &kp RALT   &kp RGUI  &kp RCTRL
-     //`(------------------------------)---------------------------------'			`---------------------------------(------------------------------)'
+		    &kp AT	&kp W	   &kp E	&kp R		&kp T			&kp FSLH	&kp N7		&kp N8		&kp N9	&kp EQUAL
+		  &kp AUML	&kp S	   &kp D	&kp F		&kp G			&kp BSLS	&kp N4		&kp N5		&kp N6	&kp QUOT
+		&kp LSHIFT	&kp Z	   &kp C	&kp V		&kp B			&kp N0		&kp N1		&kp N2		&kp N3	&kp PLUS
+				&lm LCTRL ESC	&lm RSE TAB	 &lm LALT SPACE			&lm WIN BSP	&lm LWR DEL  &lm RET MEDIA
                         >;
                 };
 
@@ -58,15 +49,6 @@
 		    &kp F12	&kp S	   &kp D		  &kp F			&kp G				   &kp H		&kp J		&kp K      	 &kp L	  &kp QUOT
 		&kp LSHIFT	&kp X	   &kp C		  &kp V			&kp B				   &kp N		&kp M		&kp COMMA    &kp DOT  &kp SLSH
 							&lm LCTRL ESC	&lm RSE TAB	 &lm LALT SPACE			&lm WIN BSP	 &lm LWR DEL  &lm RET MEDIA
-	 //,-----------------------------------------------------------------.			,-----------------------------------------------------------------.
-     // &bt BT_CLR   &kp 1!     &kp 2!     &kp UP     &kp 4$    &kp 5%  			  &kp FSLH   &kp UUML   &kp EQUAL  &kp SCLN   &kp 2²   &kp BSPC
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
- 	//	 &kp TAB    &kp POS1   &kp LEFT   &kp DOWN  &kp RIGHT   &kp END  			    &kp <      &kp >    &kp NUBS|  &kp NUHS  &kp PRINT   &kp DEL
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
-    //  &kp LSHFT &kp trans &kp STLeft  &kp BDOWN  &kp STright &kp PGUP 			  &kp PARA   &kp GRV^   &kp GRV°   &kp EQL´   &kp EQL`   &kp GRV~
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
-    //  &kp LCTRL   &kp LGUI   &kp LALT  &kp LCTRL   &mo _RSE  &kp SPACE  			 &kp SPACE   &mo _LOW   &kp RET    &kp RALT   &kp RGUI  &kp RCTRL
-     //`(------------------------------)---------------------------------'			`---------------------------------(------------------------------)'
                         >;
                 };
 
@@ -76,15 +58,6 @@
 		    &kp A		&kp S	   &kp D		  &kp F			&kp G				   &kp H		&kp J		&kp K      	 &kp L	  &kp QUOT
 		&kp LSHIFT	&kp X	   &kp C		  &kp V			&kp B				   &kp N		&kp M		&kp COMMA    &kp DOT  &kp SLSH
 							&lm LCTRL ESC	&lm RSE TAB	 &lm LALT SPACE			&lm WIN BSP	 &lm LWR DEL  &lm RET MEDIA
-	 //,-----------------------------------------------------------------.			,-----------------------------------------------------------------.
-    //  &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp FSLH   &kp F7     &kp F8     &kp F9     &kp F10   &kp RESET
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
-	//	 &kp TAB    &kp prvs   &kp next   &kp play  &kp trans   &kp trans  			  &kp BSLS   &kp F4  	&kp F5     &kp F6     &kp F11    &kp DEL
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
-    //  &kp LSHFT   &kp leiser &kp lauter &kp mute  &kp mute_mic &kp trans  		  &kp trans  &kp F1     &kp F2     &kp F3     &kp F12   &kp trans
-     //|----------+----------+----------+----------+----------+----------|			|----------+----------+----------+----------+----------+----------|
-    //  &kp LCTRL   &kp LGUI   &kp LALT  &kp LCTRL   &mo _RSE  &kp SPACE  			 &kp SPACE   &mo _LOW   &kp RET    &kp RALT   &kp RGUI  &kp RCTRL
-     //`(------------------------------)---------------------------------'			`---------------------------------(------------------------------)'
                         >;
                 };
 
