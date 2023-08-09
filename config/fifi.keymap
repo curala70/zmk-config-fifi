@@ -40,7 +40,7 @@
 &kp Q       &kp W       &kp E           &kp R       &kp T                   &kp Y           &kp U       &kp I       &kp O       &kp P
 &kp A       &kp S       &kp D           &kp F       &kp G                   &kp H           &kp J       &kp K		&kp L       &kp BSLH
 &kp LSHIFT  &kp X       &kp C           &kp V       &kp B                   &kp N           &kp M       &kp COMMA   &kp DOT     &kp FSLH
-                    &hm LCTRL ESC   &lm RSE TAB &hm LALT SPACE          &hm LGUI BSPC   &lm LWR DEL     &lm ADJ RET
+                      &hm LALT ESC  &lm LCTRL TAB  &hm RSE SPACE          &hm LWR BSPC   &lm LGUI DEL   &lm ADJ RET
         >;      
     };
 
@@ -57,9 +57,9 @@
     raise_layer {
         label = "RSE";
         bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)      &kp LS(N4)  &kp LS(N5)              &kp EQUAL       &kp LBRC    &kp UP      &kp SEMI     &kp LS(MINUS)
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)      &kp LS(N4)  &kp LS(N5)              &kp EQUAL       &kp LBKT    &kp UP      &kp SEMI     &kp LS(MINUS)
 &kp F12     &kp NUBS    &kp LS(NUBS)    &kp F5      &kp PSCRN               &kp HOME        &kp LEFT    &kp DOWN    &kp RIGHT    &kp END
-&trans      &kp RA(NUBS)&kp LS(N6)      &kp F2      &kp F3                  &trans          &kp LC(LEFT)&kp PG_DN   &kp LC(RIGHT)&kp PG_UP
+&trans      &kp RA(NUBS)&kp LS(N6)      &kp F2      &kp F3                  &kp HOME        &kp LC(LEFT)&kp PG_DN   &kp LC(RIGHT)&kp PG_UP
                         &trans          &trans      &trans                  &trans          &trans      &trans
                                                 
         >;
