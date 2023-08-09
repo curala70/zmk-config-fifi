@@ -54,7 +54,7 @@
           &kp Q	&kp W	   &kp E	&kp R		&kp T		  		   &kp Y	  &kp U	  	&kp I		&kp O	&kp P
 		      &kp A	&kp S	   &kp D	&kp F		&kp G		  		   &kp H	  &kp J	  	&kp K		&kp L	&kp QUOT
 		&kp LSHIFT	&kp X	   &kp C	&kp V		&kp B		  		   &kp N	  &kp M	  	&kp COMMA	&kp DOT	&kp FSLH
-					&lm LCTRL ESC  &lm NUM TAB  &lm LALT SPACE			  &lm WIN BSP	 &lm SYM DEL  &lm MEDIA RET
+					&lm LCTRL ESC  &lm NUM TAB  &lm LALT SPACE			  &lm LGUI BSP	 &lm SYM DEL  &lm MEDIA RET
         >;      
     };
 
