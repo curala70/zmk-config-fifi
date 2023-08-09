@@ -59,7 +59,7 @@
         bindings = <
 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)      &kp LS(N4)  &kp LS(N5)              &kp EQUAL       &kp LBRC    &kp UP      &kp SEMI     &kp LS(MINUS)
 &kp F12     &kp NUBS    &kp LS(NUBS)    &kp F5      &kp PSCRN               &kp HOME        &kp LEFT    &kp DOWN    &kp RIGHT    &kp END
-&trans      &kp RA(NUBS)&kp LS(N6)      &kp F2      &kp F3                  &kp PARA        &kp LC(LEFT)&kp PG_DN   &kp LC(RIGHT)&kp PG_UP
+&trans      &kp RA(NUBS)&kp LS(N6)      &kp F2      &kp F3                  &trans          &kp LC(LEFT)&kp PG_DN   &kp LC(RIGHT)&kp PG_UP
                         &trans          &trans      &trans                  &trans          &trans      &trans
                                                 
         >;
