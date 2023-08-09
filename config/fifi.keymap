@@ -34,6 +34,16 @@
   keymap {
     compatible = "zmk,keymap";
 
+// In default_layer vorh:	, ;		. :		- _		' #		+ *		(DETUSCHE BELEGUNG BEI NUTZUNG VON SHIFT)
+// Gegensätzlich, einzeln: ( )		{ }		[ ]		< > 	/ \		& |
+// Gegensätzlich, shift: 	´ `		^ °
+// Einzeln: 				!	"	§	$	% 	= 	? 	@	€	~	²	³
+// Hilfreiches: 			Del		Bild_up Bild_dn	Pos1 	Ende 	Druck
+// F-Tasten: 				F1		F2		...		F12
+// STRG-Tastenkombis: 		cpy C	pst V	cut X 	undo Z	find F 	repl H
+// Medien-Tasten:			mt_spk	mt_mic	vol_dwn	vol_up	play	pause	prev	next
+// Ignorieren:				Einfg	NUM		Rollen	Pause
+
 // Thumb keys: ESC/ALT, TAB/CTRL, SPACE/RSE - BSP/LWR, DEL/GUI, RET/MEDIA
 
 // Optimized for German Layout
