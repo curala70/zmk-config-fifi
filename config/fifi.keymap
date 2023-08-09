@@ -7,7 +7,7 @@
 #define DEFAULT 0
 #define LWR 1
 #define RSE 2
-#define ADJ 3
+#define MEDIA 3
 
 / {
   behaviors {
@@ -34,16 +34,26 @@
   keymap {
     compatible = "zmk,keymap";
 
+Thumb keys: ESC/ALT, TAB/CTRL, SPACE/RSE - BSP/LWR, DEL/GUI, RET/MEDIA
+
+// Optimized for German Layout
+// qwert zuiop
+// asdfg hjkl'
+// Sxcvb nm,.-
     default_layer {
         label = "DEFAULT";
-        bindings = <      
+        bindings = <
 &kp Q       &kp W       &kp E           &kp R       &kp T                   &kp Y           &kp U       &kp I       &kp O       &kp P
 &kp A       &kp S       &kp D           &kp F       &kp G                   &kp H           &kp J       &kp K		&kp L       &kp LS(BSLH)
 &kp LSHIFT  &kp X       &kp C           &kp V       &kp B                   &kp N           &kp M       &kp COMMA   &kp DOT     &kp FSLH
-                      &hm LALT ESC  &hm LCTRL TAB  &lm RSE SPACE          &lm LWR BSPC   &hm LGUI DEL   &lm ADJ RET
+                      &hm LALT ESC  &hm LCTRL TAB  &lm RSE SPACE          &lm LWR BSPC   &hm LGUI DEL   &lm MEDIA RET
         >;      
     };
 
+// Optimized for German Layout
+// @^€() /789=
+// äß#[] \456*
+// Sy°{} 0123+
     lower_layer {
         label = "LWR";
         bindings = <
@@ -54,6 +64,10 @@
         >;
     };
 
+// Optimized for German Layout
+// !"§$% ´üUö?
+// 2<>5P HLDRE
+// S|&23 HLBRB
     raise_layer {
         label = "RSE";
         bindings = <
@@ -65,8 +79,8 @@
         >;
     };
 
-    adjust_layer {
-        label = "ADJ";
+    media_layer {
+        label = "MEDIA";
         bindings = <
 &kp LA(F4)  &kp F12     &kp F7          &kp F8      &kp F9                  &bt BT_CLR      &bt BT_SEL 0&bt BT_SEL 1&bt BT_SEL 2&bootloader
 &kp F12     &kp F11     &kp F4          &kp F5      &kp F6                  &kp C_STOP      &kp C_PLAY  &kp C_MUTE  &trans      &trans
