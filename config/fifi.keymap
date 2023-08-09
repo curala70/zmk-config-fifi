@@ -38,7 +38,7 @@
         label = "DEFAULT";
         bindings = <      
 &kp Q       &kp W       &kp E           &kp R       &kp T                   &kp Y           &kp U       &kp I       &kp O       &kp P
-&kp A       &kp S       &kp D           &kp F       &kp G                   &kp H           &kp J       &kp K		&kp L       &kp BSLH
+&kp A       &kp S       &kp D           &kp F       &kp G                   &kp H           &kp J       &kp K		&kp L       &kp LS(BSLH)
 &kp LSHIFT  &kp X       &kp C           &kp V       &kp B                   &kp N           &kp M       &kp COMMA   &kp DOT     &kp FSLH
                       &hm LALT ESC  &hm LCTRL TAB  &lm RSE SPACE          &lm LWR BSPC   &hm LGUI DEL   &lm ADJ RET
         >;      
@@ -47,9 +47,9 @@
     lower_layer {
         label = "LWR";
         bindings = <
-&kp RA(Q)	&kp CARET   &kp RA(E)       &kp LS(N8)	&kp LS(N9)			    &kp LS(N7)	    &kp N7		&kp N8		&kp N9      &kp LS(N0)
-&kp QUOT	&kp MINUS   &trans	        &kp RA(N8)	&kp RA(N9)			    &kp RA(MINUS)	&kp N4      &kp N5		&kp N6	    &kp ASTERISK
-&trans      &kp Z       &kp LS(CARET)   &kp RA(N7)	&kp RA(N0)			    &kp N0		    &kp N1      &kp N2		&kp N3	    &kp PLUS
+&kp RA(Q)	&kp GRAVE   &kp RA(E)       &kp LS(N8)	&kp LS(N9)			    &kp LS(N7)	    &kp N7		&kp N8		&kp N9      &kp LS(N0)
+&kp QUOT	&kp MINUS   &kp BSLH	    &kp RA(N8)	&kp RA(N9)			    &kp RA(MINUS)	&kp N4      &kp N5		&kp N6	    &kp LS(RBKT)
+&trans      &kp Z       &kp LS(GRAVE)   &kp RA(N7)	&kp RA(N0)			    &kp N0		    &kp N1      &kp N2		&kp N3	    &kp RBKT
                         &trans          &trans      &trans                  &trans          &trans      &trans
         >;
     };
