@@ -34,7 +34,7 @@
   keymap {
     compatible = "zmk,keymap";
 
-Thumb keys: ESC/ALT, TAB/CTRL, SPACE/RSE - BSP/LWR, DEL/GUI, RET/MEDIA
+// Thumb keys: ESC/ALT, TAB/CTRL, SPACE/RSE - BSP/LWR, DEL/GUI, RET/MEDIA
 
 // Optimized for German Layout
 // qwert zuiop
