@@ -52,6 +52,7 @@
 // qwert zuiop
 // asdfg hjkl'
 // Sxcvb nm,.-
+//   ETS BDE
     default_layer {
         label = "DEFAULT";
         bindings = <
@@ -65,14 +66,15 @@
 // Optimized for German Layout
 // @^€() /789=
 // äß#[] \456*
-// SY~{} 0123+
+// SY,{} 0123+
+//   ~TS BDE
     lower_layer {
         label = "LOWER";
         bindings = <
-&kp RA(Q)	&kp GRAVE   &kp RA(E)       &kp LS(N8)	&kp LS(N9)			    &kp LS(N7)	    &kp N7		&kp N8		&kp N9      &kp LS(N0)
-&kp QUOT	&kp MINUS   &kp BSLH	    &kp RA(N8)	&kp RA(N9)			    &kp RA(MINUS)	&kp N4      &kp N5		&kp N6	    &kp LS(RBKT)
-&trans      &kp Z       &kp RA(RBKT)    &kp RA(N7)	&kp RA(N0)			    &kp N0		    &kp N1      &kp N2		&kp N3	    &kp RBKT
-                        &trans          &kp TAB     &kp SPACE               &trans          &trans      &trans
+&kp RA(Q)	  &kp GRAVE   &kp RA(E)       &kp LS(N8)	&kp LS(N9)			    &kp LS(N7)	    &kp N7		&kp N8		&kp N9      &kp LS(N0)
+&kp QUOT	  &kp MINUS   &kp BSLH	      &kp RA(N8)	&kp RA(N9)			    &kp RA(MINUS)	  &kp N4    &kp N5		&kp N6	    &kp LS(RBKT)
+&trans      &kp Z       &kp COMMA       &kp RA(N7)	&kp RA(N0)			    &kp N0		      &kp N1    &kp N2		&kp N3	    &kp RBKT
+                        &kp RA(RBKT)    &kp TAB     &kp SPACE           &trans          &trans    &trans
         >;
     };
 
@@ -80,6 +82,7 @@
 // !"§$% ´üUö?
 // 2<>5P HLDRE
 // S|&23 HLBRB
+//   ETS BDE
     raise_layer {
         label = "RAISE";
         bindings = <
