@@ -48,6 +48,7 @@
 // Thumb keys: ESC/ALT, TAB/CTRL, SPACE/RAISE - BSP/LOWER, DEL/GUI, RET/MEDIA
 
 // Optimized for German Layout
+// Shift key only on the left side. Shared with y key.
 // qwert zuiop
 // asdfg hjkl'
 // Sxcvb nm,.-
@@ -55,10 +56,10 @@
         label = "DEFAULT";
         bindings = <
 &kp Q           &kp W       &kp E       &kp R       &kp T                   &kp Y           &kp U       &kp I       &kp O       &kp P
-&kp A           &kp S       &kp D       &kp F       &kp G                   &kp H           &kp J       &kp K		&kp L       &kp LS(BSLH)
-&hm LSHIFT Z    &kp X       &kp C       &kp V       &kp B                   &kp N           &kp M       &kp COMMA   &kp DOT     &hm RSHIFT FSLH
-                      &hm LALT ESC  &hm LCTRL TAB  &lm RAISE SPACE          &lm LOWER BSPC   &hm LGUI DEL   &lm MEDIA RET
-        >;      
+&kp A           &kp S       &kp D       &kp F       &kp G                   &kp H           &kp J       &kp K		    &kp L       &kp LS(BSLH)
+&hm LSHIFT Z    &kp X       &kp C       &kp V       &kp B                   &kp N           &kp M       &kp COMMA   &kp DOT     &kp FSLH
+                    &hm LALT ESC   &hm LCTRL TAB    &lm RAISE SPACE         &lm LOWER BSPC   &hm LGUI DEL   &lm MEDIA RET
+        >;
     };
 
 // Optimized for German Layout
